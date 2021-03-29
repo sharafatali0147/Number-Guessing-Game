@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Number Guessing Game ",
+    "slug": "number-guessing-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Select a Number and press conform button.  Next pop up will show you selected Number and press Start Game button. \nGame started... and guess that which number is selected through system random number generated.  when number found this screen will show you Game is Over and also show you total round and selected Number.   "
+  }
+}
